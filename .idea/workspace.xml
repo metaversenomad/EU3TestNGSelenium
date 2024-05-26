@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/FirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/YouTubeSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/OpenBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/CloseAndQuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/GetTitleAndUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/NavigationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyConfirmationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyURLchanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_webelement_intro/verifyURLnotChanged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_basic_locators/IDLocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_basic_locators/LinkTextandPartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_basic_locators/classNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day4_basic_locators/nameLocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/review/week01/T01_YahooPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/review/week01/T02_CybertekUrlTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/tagNameLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/archetype-resources/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;metaversenomad&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/metaversenomad/EU3TestNGSelenium.git&quot;,
+    &quot;accountId&quot;: &quot;883c655f-f42d-47ff-a3e0-3144f980e259&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2gP6Z8GJgQSU9D71i5vkiuCEPWj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CloseAndQuit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetTitleAndUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IDLocatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Konusanlar (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Konusanlar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkTextandPartialLinkText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OpenBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T01_YahooPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T02_CybertekUrlTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebDriverFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YouTubeSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.classNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nameLocatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tagNameLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.verifyConfirmationMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.verifyURLchanged.executor&quot;: &quot;Run&quot;,
+    &quot;Application.verifyURLnotChanged.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mustafa/IdeaProjects/JavaProgramming&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cybertek.tests.day2_webdriver_basics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\test\java\com\cybertek\tests" />
+      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\test" />
+      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main" />
+      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main\resources\archetype-resources\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.YouTubeSearch">
+    <configuration name="LinkTextandPartialLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_basic_locators.LinkTextandPartialLinkText" />
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day4_basic_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T01_YahooPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.review.week01.T01_YahooPractice" />
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.review.week01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T02_CybertekUrlTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.review.week01.T02_CybertekUrlTask" />
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.review.week01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebDriverFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day2_webdriver_basics.WebDriverFactory" />
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day2_webdriver_basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YouTubeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.YouTubeSearch" />
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.YouTubeSearch" />
+        <item itemvalue="Application.WebDriverFactory" />
+        <item itemvalue="Application.T02_CybertekUrlTask" />
+        <item itemvalue="Application.T01_YahooPractice" />
+        <item itemvalue="Application.LinkTextandPartialLinkText" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="" />
+      <created>1715586920535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715586920535</updated>
+      <workItem from="1715586921666" duration="569000" />
+      <workItem from="1715587510073" duration="2537000" />
+      <workItem from="1715592760348" duration="5870000" />
+      <workItem from="1715670633667" duration="30102000" />
+      <workItem from="1715844142094" duration="335000" />
+      <workItem from="1715860445465" duration="5544000" />
+      <workItem from="1716145561417" duration="41000" />
+      <workItem from="1716185897858" duration="13000" />
+      <workItem from="1716187342932" duration="3000" />
+      <workItem from="1716187840892" duration="3000" />
+      <workItem from="1716194024893" duration="10106000" />
+      <workItem from="1716272783298" duration="16039000" />
+      <workItem from="1716358521659" duration="8320000" />
+      <workItem from="1716406009464" duration="80000" />
+      <workItem from="1716456272098" duration="3145000" />
+      <workItem from="1716464359501" duration="5956000" />
+      <workItem from="1716739898488" duration="383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
