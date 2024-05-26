@@ -12,9 +12,7 @@ public class YouTubeSearch {
         driver.manage().window().maximize();
 
         driver.get("https://www.youtube.com/");
-        driver.manage().deleteAllCookies();
 
-        WebElement searchBox = driver.findElement(By.id("search-input"));
         searchBox.sendKeys("Java");
     }
 }
