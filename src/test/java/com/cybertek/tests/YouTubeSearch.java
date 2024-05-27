@@ -14,7 +14,7 @@ public class YouTubeSearch {
         driver.get("https://www.youtube.com/");
         driver.manage().deleteAllCookies();
 
-        WebElement searchBox = driver.findElement(By.id("search-input"));
+        WebElement searchBox = driver.findElement(By.xpath("(//*[@id=\"search\"])[3]"));
         searchBox.sendKeys("Java");
     }
 }
