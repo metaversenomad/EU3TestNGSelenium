@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="">
+    <list default="true" id="e2f1db1b-c2a9-4015-a11e-f905a1a86c84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/homeworks/CheckBoxHomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/homeworks/NewCheckBoxHW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/WebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/CallWebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/BeforeAfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/FirstTestNGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testng/TestNGAssertionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/AttributeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/CheckboxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/DisabledElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/DisplayedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_types_of_elements/RadioButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_types_of_elements_2/ListOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/YouTubeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/YouTubeSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_webdriver_basics/WebDriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day6_ccs/cssLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day6_ccs/cssLocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,81 +56,307 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2gP6Z8GJgQSU9D71i5vkiuCEPWj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2h3GbdIEC0iUN1HjqezKcP3S8Wq" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallWebDriverFactory.executor": "Run",
+    "Application.WebDriverFactory.executor": "Run",
+    "Application.YouTubeSearch.executor": "Run",
+    "Application.cssLocator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AttributeTest.executor": "Run",
+    "TestNG.AttributeTest.test1.executor": "Run",
+    "TestNG.BeforeAfterMethod.executor": "Run",
+    "TestNG.BeforeAfterMethod.test1.executor": "Run",
+    "TestNG.BeforeAfterMethod.test2.executor": "Run",
+    "TestNG.CheckboxDemo.CheckboxDemo.executor": "Run",
+    "TestNG.CheckboxDemo.executor": "Run",
+    "TestNG.DisabledElements.executor": "Run",
+    "TestNG.DisabledElements.test1.executor": "Run",
+    "TestNG.DisabledElements.test2.executor": "Run",
+    "TestNG.DisplayedDemo.executor": "Run",
+    "TestNG.DisplayedDemo.test1.executor": "Run",
+    "TestNG.FirstTestNGTest.executor": "Run",
+    "TestNG.FirstTestNGTest.test2.executor": "Run",
+    "TestNG.ListOfElements.executor": "Run",
+    "TestNG.NewCheckBoxHW.webOrdersTest.executor": "Run",
+    "TestNG.RadioButtonTest.test1.executor": "Run",
+    "TestNG.TestArea.Test1.executor": "Run",
+    "TestNG.TestArea.executor": "Run",
+    "TestNG.TestNGAssertionsDemo (1).executor": "Run",
+    "TestNG.TestNGAssertionsDemo.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test1.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test2.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test3.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test4.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test5.executor": "Run",
+    "TestNG.TestNGAssertionsDemo.test6.executor": "Run",
+    "TestNG.WebOrders.executor": "Run",
+    "TestNG.WebOrders.webOrdersTest (1).executor": "Run",
+    "TestNG.WebOrders.webOrdersTest (2).executor": "Run",
+    "TestNG.WebOrders.webOrdersTest (3).executor": "Run",
+    "TestNG.WebOrders.webOrdersTest (4).executor": "Run",
+    "TestNG.WebOrders.webOrdersTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cybertek.tests.day2_webdriver_basics" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\test\java\com\cybertek\tests" />
-      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\test" />
-      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main" />
-      <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main\resources\archetype-resources\src\test\java" />
+      <recent name="com.cybertek.tests.day1_intro" />
     </key>
   </component>
+  <component name="RunManager" selected="TestNG.ListOfElements">
+    <configuration name="AttributeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day7_types_of_elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_types_of_elements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_types_of_elements.AttributeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckBoxHomeWork" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.review.week01.*" />
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.CheckBoxHomeWork" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckBoxHomeWork.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.CheckBoxHomeWork" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListOfElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day8_types_of_elements_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day8_types_of_elements_2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day8_types_of_elements_2.ListOfElements" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewCheckBoxHW.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.NewCheckBoxHW" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewCheckBoxHW.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.NewCheckBoxHW" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewCheckBoxHW.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.NewCheckBoxHW" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewCheckBoxHW.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.NewCheckBoxHW" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewCheckBoxHW.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.NewCheckBoxHW" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebOrders.webOrdersTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.WebOrders" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebOrders.webOrdersTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.WebOrders" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebOrders.webOrdersTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.WebOrders" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebOrders.webOrdersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.homeworks.WebOrders" />
+      <option name="METHOD_NAME" value="webOrdersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YouTubeSearch" />
-        <item itemvalue="Application.WebDriverFactory" />
-        <item itemvalue="Application.T02_CybertekUrlTask" />
+        <item itemvalue="TestNG.ListOfElements" />
+        <item itemvalue="TestNG.CheckBoxHomeWork.Test1" />
+        <item itemvalue="TestNG.CheckBoxHomeWork" />
+        <item itemvalue="TestNG.NewCheckBoxHW.webOrdersTest" />
+        <item itemvalue="TestNG.AttributeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -123,43 +371,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="" />
-      <created>1715586920535</created>
+      <changelist id="e2f1db1b-c2a9-4015-a11e-f905a1a86c84" name="Changes" comment="" />
+      <created>1716815421531</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715586920535</updated>
-      <workItem from="1715586921666" duration="569000" />
-      <workItem from="1715587510073" duration="2537000" />
-      <workItem from="1715592760348" duration="5870000" />
-      <workItem from="1715670633667" duration="30102000" />
-      <workItem from="1715844142094" duration="335000" />
-      <workItem from="1715860445465" duration="5544000" />
-      <workItem from="1716145561417" duration="41000" />
-      <workItem from="1716185897858" duration="13000" />
-      <workItem from="1716187342932" duration="3000" />
-      <workItem from="1716187840892" duration="3000" />
-      <workItem from="1716194024893" duration="10106000" />
-      <workItem from="1716272783298" duration="16039000" />
-      <workItem from="1716358521659" duration="8320000" />
-      <workItem from="1716406009464" duration="80000" />
-      <workItem from="1716456272098" duration="3145000" />
-      <workItem from="1716464359501" duration="5956000" />
-      <workItem from="1716739898488" duration="383000" />
+      <updated>1716815421531</updated>
+      <workItem from="1716815423882" duration="94000" />
+      <workItem from="1716815826787" duration="26481000" />
+      <workItem from="1717053090260" duration="10486000" />
+      <workItem from="1717137137565" duration="17942000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

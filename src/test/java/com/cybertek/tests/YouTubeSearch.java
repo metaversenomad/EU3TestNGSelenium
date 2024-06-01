@@ -13,6 +13,6 @@ public class YouTubeSearch {
 
         driver.get("https://www.youtube.com/");
 
-        searchBox.sendKeys("Java");
+
     }
 }
