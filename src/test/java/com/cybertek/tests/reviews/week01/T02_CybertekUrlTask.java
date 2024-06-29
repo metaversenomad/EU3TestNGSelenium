@@ -1,4 +1,4 @@
-package com.cybertek.tests.review.week01;
+package com.cybertek.tests.reviews.week01;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;

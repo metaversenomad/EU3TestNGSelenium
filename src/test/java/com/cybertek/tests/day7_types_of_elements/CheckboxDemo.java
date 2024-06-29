@@ -29,7 +29,5 @@ public class CheckboxDemo {
         Assert.assertTrue(checkbox2.isSelected(), "verify checkbox2 is selected");
 
         driver.quit();
-
     }
-
 }
