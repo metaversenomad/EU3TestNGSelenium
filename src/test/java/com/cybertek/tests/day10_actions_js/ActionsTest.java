@@ -50,6 +50,7 @@ public class ActionsTest {
         }else if (acceptCookies.size()>0){
             acceptCookies.get(0).click();
         }
+        Thread.sleep(2000);
 
         WebElement source = driver.findElement(By.id("draggable"));
         WebElement target = driver.findElement(By.id("droptarget"));
@@ -72,6 +73,7 @@ public class ActionsTest {
         }else if (acceptCookies.size()>0){
             acceptCookies.get(0).click();
         }
+        Thread.sleep(2000);
 
         WebElement source = driver.findElement(By.id("draggable"));
         WebElement target = driver.findElement(By.id("droptarget"));
