@@ -71,11 +71,48 @@ public class WebTablesExample {
     }
     @Test
     public void getAllCellInOneRow() {
-        List<WebElement> allcellsInOneRow = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr[1]/td"));
-        for (WebElement element : allcellsInOneRow) {
+        List<WebElement> allCellsInOneRow = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr[2]/td"));
+        for (WebElement element : allCellsInOneRow) {
             System.out.println(element.getText());
         }
     }
     @Test
-    public void getASingleCellInOneRow() {}
+    public void getASingleCellByIndex() {
+        WebElement singleCell = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr"));
+        System.out.println("singleCell.getText() = " + singleCell.getText());
+    }
+    @Test
+    public void printALlCellsByIndex (){
+        int rowNumber = getNumberOfRow();
+        int colNumber = getNumberOfColumns();
+
+        System.out.println("colNumber = " + colNumber);
+        System.out.println("rowNumber = " + rowNumber);
+
+        for (int i = 1; i <= rowNumber ; i++) {
+
+            for (int j = 1; j <= colNumber; j++) {
+                String cellXpath = "//table[@id='table1']/tbody/tr["+i+"]/td["+j+"]";
+                System.out.println(cellXpath);
+
+                WebElement cell = driver.findElement(By.xpath(cellXpath));
+                System.out.println(cell.getText());
+            }
+        }
+    }
+    @Test
+    public void getCellInRelationToAnotherCellInSameRow(){
+        String xpath = "//table[@id='table1']//td[.='John']/../td[3]";
+        WebElement email = driver.findElement(By.xpath(xpath));
+        System.out.println(email.getText());
+    }
+    private int getNumberOfColumns() {
+        List<WebElement> headers = driver.findElements(By.xpath("//table[@id='table1']//th"));
+        return headers.size();
+    }
+
+    private int getNumberOfRow() {
+        List<WebElement> allRowsWithoutHeader = driver.findElements(By.xpath("//table[@id='table1']//tbody/tr"));
+        return allRowsWithoutHeader.size();
+    }
 }
