@@ -36,7 +36,7 @@ public class YouTubeSearch {
 
         inputBox.click();
 
-        inputBox.sendKeys("Turn it up");
+        inputBox.sendKeys("bailar contigo");
         Thread.sleep(3000);
 
 
