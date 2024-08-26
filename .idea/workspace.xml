@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="TestBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="BrowserUtils copy past from Github">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/PageSubtitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/RepeatOptionsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/YouTubeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/YouTubeSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,66 +50,68 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CloseAndQuit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetTitleAndUrl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IDLocatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Konusanlar (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Konusanlar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkTextandPartialLinkText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NavigationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OpenBrowser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T01_YahooPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T02_CybertekUrlTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebDriverFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.YouTubeSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.classNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nameLocatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tagNameLocator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.verifyConfirmationMessage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.verifyURLchanged.executor&quot;: &quot;Run&quot;,
-    &quot;Application.verifyURLnotChanged.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AnotherLoginTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.OpenBrowserWithConf.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NegativeLoginTest.wrongPasswordTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NegativeLoginTest.wrongUsernameTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PositiveLoginTest.loginAsDriver.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PositiveLoginTest.loginAsStoreManager.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PropertiesTest.OpenBrowserWithConf.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PropertiesTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PropertiesTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Singleton.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SingletonTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SingletonTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SingletonTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SingletonTest.test3.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WebTablesExample.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WebTablesExample.getASingleCellByIndex.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WebTablesExample.getAllCellInOneRow.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WebTablesExample.printALlCellsByIndex.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mustafa/IdeaProjects/JavaProgramming&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CloseAndQuit.executor": "Run",
+    "Application.FirstClass.executor": "Run",
+    "Application.GetTitleAndUrl.executor": "Run",
+    "Application.IDLocatorTest.executor": "Run",
+    "Application.Konusanlar (1).executor": "Run",
+    "Application.Konusanlar.executor": "Run",
+    "Application.LinkTextandPartialLinkText.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NavigationDemo.executor": "Run",
+    "Application.OpenBrowser.executor": "Run",
+    "Application.T01_YahooPractice.executor": "Run",
+    "Application.T02_CybertekUrlTask.executor": "Run",
+    "Application.WebDriverFactory.executor": "Run",
+    "Application.YouTubeSearch.executor": "Run",
+    "Application.classNameTest.executor": "Run",
+    "Application.nameLocatorTest.executor": "Run",
+    "Application.tagNameLocator.executor": "Run",
+    "Application.verifyConfirmationMessage.executor": "Run",
+    "Application.verifyURLchanged.executor": "Run",
+    "Application.verifyURLnotChanged.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AnotherLoginTest.test1.executor": "Run",
+    "TestNG.LoginTest.OpenBrowserWithConf.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.NegativeLoginTest.wrongPasswordTest.executor": "Run",
+    "TestNG.NegativeLoginTest.wrongUsernameTest.executor": "Run",
+    "TestNG.PageSubtitleTest.test1.executor": "Run",
+    "TestNG.PositiveLoginTest.loginAsDriver.executor": "Run",
+    "TestNG.PositiveLoginTest.loginAsStoreManager.executor": "Run",
+    "TestNG.PropertiesTest.OpenBrowserWithConf.executor": "Run",
+    "TestNG.PropertiesTest.executor": "Run",
+    "TestNG.PropertiesTest.test1.executor": "Run",
+    "TestNG.RepeatOptionsTests.test1.executor": "Run",
+    "TestNG.Singleton.test1.executor": "Run",
+    "TestNG.SingletonTest.executor": "Run",
+    "TestNG.SingletonTest.test1.executor": "Run",
+    "TestNG.SingletonTest.test2.executor": "Run",
+    "TestNG.SingletonTest.test3.executor": "Run",
+    "TestNG.WebTablesExample.executor": "Run",
+    "TestNG.WebTablesExample.getASingleCellByIndex.executor": "Run",
+    "TestNG.WebTablesExample.getAllCellInOneRow.executor": "Run",
+    "TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow.executor": "Run",
+    "TestNG.WebTablesExample.printALlCellsByIndex.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mustafa/IdeaProjects/JavaProgramming",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cybertek.tests.day2_webdriver_basics" />
@@ -119,7 +123,7 @@
       <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main\resources\archetype-resources\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YouTubeSearch">
+  <component name="RunManager" selected="TestNG.RepeatOptionsTests.test1">
     <configuration name="YouTubeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.YouTubeSearch" />
       <module name="EU3TestNGSelenium" />
@@ -133,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PageSubtitleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
@@ -142,26 +146,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeLoginTest.wrongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU3TestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongUsernameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.PageSubtitleTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -205,13 +191,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatOptionsTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.RepeatOptionsTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RepeatOptionsTests.test1" />
+        <item itemvalue="TestNG.PageSubtitleTest.test1" />
         <item itemvalue="Application.YouTubeSearch" />
         <item itemvalue="TestNG.PositiveLoginTest.loginAsStoreManager" />
         <item itemvalue="TestNG.PositiveLoginTest.loginAsDriver" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongUsernameTest" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongPasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724059964478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BrowserUtils copy past from Github">
+      <option name="closed" value="true" />
+      <created>1724336996812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724336996812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +308,7 @@
     <MESSAGE value="WebTablesExample" />
     <MESSAGE value="PropertiesTest" />
     <MESSAGE value="TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBase" />
+    <MESSAGE value="BrowserUtils copy past from Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="BrowserUtils copy past from Github" />
   </component>
 </project>
