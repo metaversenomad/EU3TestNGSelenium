@@ -6,9 +6,14 @@ import com.cybertek.pages.DashboardPage;
 import com.cybertek.pages.LoginPage;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.BrowserUtils;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class RepeatOptionsTests extends TestBase {
     /*VERIFY RADIO BUTTONS
@@ -67,7 +72,15 @@ public class RepeatOptionsTests extends TestBase {
 
         Select repeatsDropdown = createCalendarEventsPage.repeatOptionsList();
 
+        List<String> expectedList = Arrays.asList("Daily","Weekly","Monthly","Yearly");
 
+        List<String> actualList = new ArrayList<>();
+
+        List<WebElement> actualOptions = repeatsDropdown.getOptions();
+        for (WebElement options : actualOptions) {
+            actualList.add(options.getText());
+        }
+        Assert.assertEquals(actualOptions,expectedList, "Verify daily weekly monthly yearly");
 
 
     }

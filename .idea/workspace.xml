@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="BrowserUtils copy past from Github">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/PageSubtitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/RepeatOptionsTests.java" afterDir="false" />
+    <list default="true" id="6a40fd0b-c9df-4667-86ad-6779fe3d2183" name="Changes" comment="RepeatOptionsTests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_extent_reports/ExtentDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_extent_reports/NegativeLoginTestWithReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_review/verifyContactInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/RepeatOptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_pom/RepeatOptionsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +76,15 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AnotherLoginTest.test1.executor": "Run",
+    "TestNG.C:/Users/Mustafa/IdeaProjects/EU3TestNGSelenium/testng_runner.xml.executor": "Run",
+    "TestNG.ExtentDemoTest.executor": "Run",
+    "TestNG.FilePathExample.executor": "Run",
     "TestNG.LoginTest.OpenBrowserWithConf.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.NegativeLoginTest.wrongPasswordTest.executor": "Run",
     "TestNG.NegativeLoginTest.wrongUsernameTest.executor": "Run",
+    "TestNG.NegativeLoginTestWithReport.executor": "Run",
+    "TestNG.NegativeLoginTestWithReport.wrongPasswordTest.executor": "Run",
     "TestNG.PageSubtitleTest.test1.executor": "Run",
     "TestNG.PositiveLoginTest.loginAsDriver.executor": "Run",
     "TestNG.PositiveLoginTest.loginAsStoreManager.executor": "Run",
@@ -86,6 +92,7 @@
     "TestNG.PropertiesTest.executor": "Run",
     "TestNG.PropertiesTest.test1.executor": "Run",
     "TestNG.RepeatOptionsTests.test1.executor": "Run",
+    "TestNG.RepeatOptionsTests.test2.executor": "Run",
     "TestNG.Singleton.test1.executor": "Run",
     "TestNG.SingletonTest.executor": "Run",
     "TestNG.SingletonTest.test1.executor": "Run",
@@ -96,6 +103,7 @@
     "TestNG.WebTablesExample.getAllCellInOneRow.executor": "Run",
     "TestNG.WebTablesExample.getCellInRelationToAnotherCellInSameRow.executor": "Run",
     "TestNG.WebTablesExample.printALlCellsByIndex.executor": "Run",
+    "TestNG.verifyContactInfoTest.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -123,31 +131,62 @@
       <recent name="C:\Users\Mustafa\IdeaProjects\EU3TestNGSelenium\src\main\resources\archetype-resources\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RepeatOptionsTests.test1">
-    <configuration name="YouTubeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.YouTubeSearch" />
+  <component name="RunManager" selected="TestNG.C:/Users/Mustafa/IdeaProjects/EU3TestNGSelenium/testng_runner.xml">
+    <configuration name="C:/Users/Mustafa/IdeaProjects/EU3TestNGSelenium/testng_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageSubtitleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day14_extent_reports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.PageSubtitleTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_extent_reports.ExtentDemoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLoginTestWithReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day14_extent_reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_extent_reports.NegativeLoginTestWithReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLoginTestWithReport.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU3TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day14_extent_reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day14_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day14_extent_reports.NegativeLoginTestWithReport" />
+      <option name="METHOD_NAME" value="wrongPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,54 +194,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveLoginTest.loginAsDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="verifyContactInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU3TestNGSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day15_review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.PositiveLoginTest" />
-      <option name="METHOD_NAME" value="loginAsDriver" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PositiveLoginTest.loginAsStoreManager" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU3TestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.PositiveLoginTest" />
-      <option name="METHOD_NAME" value="loginAsStoreManager" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatOptionsTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU3TestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_pom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_pom.RepeatOptionsTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_review" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_review.verifyContactInfoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -211,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RepeatOptionsTests.test1" />
-        <item itemvalue="TestNG.PageSubtitleTest.test1" />
-        <item itemvalue="Application.YouTubeSearch" />
-        <item itemvalue="TestNG.PositiveLoginTest.loginAsStoreManager" />
-        <item itemvalue="TestNG.PositiveLoginTest.loginAsDriver" />
+        <item itemvalue="TestNG.C:/Users/Mustafa/IdeaProjects/EU3TestNGSelenium/testng_runner.xml" />
+        <item itemvalue="TestNG.verifyContactInfoTest" />
+        <item itemvalue="TestNG.NegativeLoginTestWithReport" />
+        <item itemvalue="TestNG.NegativeLoginTestWithReport.wrongPasswordTest" />
+        <item itemvalue="TestNG.ExtentDemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724336996812</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RepeatOptionsTests">
+      <option name="closed" value="true" />
+      <created>1724683017719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724683017719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +319,7 @@
     <MESSAGE value="PropertiesTest" />
     <MESSAGE value="TestBase" />
     <MESSAGE value="BrowserUtils copy past from Github" />
-    <option name="LAST_COMMIT_MESSAGE" value="BrowserUtils copy past from Github" />
+    <MESSAGE value="RepeatOptionsTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="RepeatOptionsTests" />
   </component>
 </project>
